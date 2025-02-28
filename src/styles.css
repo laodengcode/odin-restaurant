@@ -1,0 +1,40 @@
+* {
+    font-family: fantasy;
+    background-color: rgb(156, 48, 46);
+    box-sizing: border-box;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    height: 96px;
+}
+
+nav>button {
+    border: none;
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.hero>p {
+    font-size: 50px;
+    max-width: 80%;
+    width: 800px;
+}
+
+.hero>img {
+    width: 800px;
+    border-radius: 20%;
+}
