@@ -9,7 +9,7 @@ export const menu = () => {
     container.classList.add("menu");
 
     let title = document.createElement('h1');
-    title.textContent = 'Menu';
+    title.textContent = 'Our Dishes';
 
     let chicken = createDish('Roast Basilisk', chickenImg);
     let pizza = createDish('Man-Eating Plant Tart', pizzaImg);
